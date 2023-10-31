@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DCF1054E2AF10CFB0087B974 /* BasicApp_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1054D2AF10CFB0087B974 /* BasicApp_SwiftUIApp.swift */; };
-		DCF105502AF10CFB0087B974 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1054F2AF10CFB0087B974 /* ContentView.swift */; };
 		DCF105522AF10CFC0087B974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCF105512AF10CFC0087B974 /* Assets.xcassets */; };
 		DCF105552AF10CFC0087B974 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCF105542AF10CFC0087B974 /* Preview Assets.xcassets */; };
 		DCF1055C2AF111350087B974 /* CoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1055B2AF111350087B974 /* CoordinatorView.swift */; };
@@ -25,7 +24,6 @@
 /* Begin PBXFileReference section */
 		DCF1054A2AF10CFB0087B974 /* BasicApp-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BasicApp-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCF1054D2AF10CFB0087B974 /* BasicApp_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicApp_SwiftUIApp.swift; sourceTree = "<group>"; };
-		DCF1054F2AF10CFB0087B974 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DCF105512AF10CFC0087B974 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCF105542AF10CFC0087B974 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DCF1055B2AF111350087B974 /* CoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorView.swift; sourceTree = "<group>"; };
@@ -72,7 +70,6 @@
 				DCF1055F2AF111600087B974 /* AboutPage.swift */,
 				DCF105612AF111720087B974 /* AboutViewModel.swift */,
 				DCF1054D2AF10CFB0087B974 /* BasicApp_SwiftUIApp.swift */,
-				DCF1054F2AF10CFB0087B974 /* ContentView.swift */,
 				DCF1055D2AF111500087B974 /* CoordinatorModel.swift */,
 				DCF1055B2AF111350087B974 /* CoordinatorView.swift */,
 				DCF105672AF111CB0087B974 /* DiContainer.swift */,
@@ -164,7 +161,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCF105502AF10CFB0087B974 /* ContentView.swift in Sources */,
 				DCF1056A2AF111D70087B974 /* DiProvider.swift in Sources */,
 				DCF1055C2AF111350087B974 /* CoordinatorView.swift in Sources */,
 				DCF105622AF111720087B974 /* AboutViewModel.swift in Sources */,
