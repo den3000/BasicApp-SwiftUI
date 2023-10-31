@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+class MathService {
+    func increase(value: Int) -> Int { return value + 1 }
+    func decrease(value: Int) -> Int { return value - 1 }
+}
