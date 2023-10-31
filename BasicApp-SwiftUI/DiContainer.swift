@@ -8,10 +8,17 @@
 import Foundation
 import SwiftUI
 
-class DiContainer {
+protocol DiContainerProtocol {
+    func mathService() -> MathService
+    func mainVmInstance<CD: MainViewModelCoordinatorDelegate>(service: MathService) -> MainViewModel<CD>
+    func aboutVmInstance<CD: AboutViewModelCoordinatorDelegate>(service: MathService, input: String, result: Binding<Int>) -> AboutViewModel<CD>
     
+    func increment() -> Int
+}
+
+extension DiContainerProtocol {
     func mathService() -> MathService {
-        return MathService()
+        return MathService(increment: increment())
     }
     
     func mainVmInstance<CD: MainViewModelCoordinatorDelegate>(service: MathService) -> MainViewModel<CD> {

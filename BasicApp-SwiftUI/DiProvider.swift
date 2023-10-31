@@ -7,8 +7,14 @@
 
 import SwiftUI
 
+// class my di provider
+
+class MyDiContainer: DiContainerProtocol {
+    func increment() -> Int { 1 }
+}
+
 class DiProvider: ObservableObject {
-    let container = DiContainer()
+    let container = MyDiContainer()
     
     lazy var service = container.mathService()
     

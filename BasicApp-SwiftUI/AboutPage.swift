@@ -37,7 +37,7 @@ struct AboutPage_Previews: PreviewProvider {
     static var previews: some View {
         NavigationStack {
             AboutPage(
-                viewModel: AboutViewModel<AboutViewModelCoordinatorDelegate_Preview>(service: MathService())
+                viewModel: AboutViewModel<AboutViewModelCoordinatorDelegate_Preview>(service: MathService(increment: 1))
             )
         }
     }

@@ -33,7 +33,7 @@ class MainViewModelCoordinatorDelegate_Preview: MainViewModelCoordinatorDelegate
 struct MainPage_Previews: PreviewProvider {
     static var previews: some View {
         NavigationStack {
-            MainPage(viewModel: MainViewModel<MainViewModelCoordinatorDelegate_Preview>(service: MathService()))
+            MainPage(viewModel: MainViewModel<MainViewModelCoordinatorDelegate_Preview>(service: MathService(increment: 1)))
         }
     }
 }

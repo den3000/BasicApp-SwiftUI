@@ -8,6 +8,12 @@
 import Foundation
 
 class MathService {
-    func increase(value: Int) -> Int { return value + 1 }
-    func decrease(value: Int) -> Int { return value - 1 }
+    let increment: Int
+    
+    init(increment: Int) {
+        self.increment = increment
+    }
+    
+    func increase(value: Int) -> Int { return value + increment }
+    func decrease(value: Int) -> Int { return value - increment }
 }
